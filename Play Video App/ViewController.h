@@ -1,14 +1,14 @@
-//
-//  ViewController.h
-//  Play Video App
-//
-//  Created by Amir on 10/19/17.
-//  Copyright © 2017 Cinard Digital Media Institute. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AVKit/AVKit.h>
 
-@interface ViewController : UIViewController
+
+#import <MobileCoreServices/MobileCoreServices.h>
+
+
+@interface ViewController : UIViewController <
+UIImagePickerControllerDelegate,
+UINavigationControllerDelegate>
 
 
 @end
